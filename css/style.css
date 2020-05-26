@@ -410,8 +410,8 @@ h1, h2, h3, h4 {
   color: #000; }
 
 .site-section {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   position: relative;
   z-index: 2; }
 
@@ -518,10 +518,10 @@ h1, h2, h3, h4 {
   font-size: 2rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
-  font-weight: 300; }
+  font-weight: 500; }
 
 .section-title-sub {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #ced4da; }
 
 .section-hero, .section-hero > .container > .row {
@@ -620,7 +620,8 @@ h1, h2, h3, h4 {
     color: #adb5bd; }
 
 .block__62849 .block__16443 {
-  background: #fff;
+  background:rgb(213, 222, 233);
+  border-radius: 6%;
   padding: 30px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -789,6 +790,7 @@ h1, h2, h3, h4 {
   padding: 7em 0; }
 
 .block__69944 .text-muted {
+  
   color: #ced4da !important; }
 
 .block__76208 .accordion-item .heading {
