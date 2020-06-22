@@ -324,10 +324,95 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem; }
 
-
 .lead {
   font-size: 1.25rem;
   font-weight: 300; }
+
+.lead1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(51, 214, 255);
+}
+ 
+
+  .lead-team-dark {
+    color: rgba(255, 255, 255, 0.774);
+    text-align: center;
+    padding: 3px;
+    font-size:1rem;
+    font-weight: 300;
+    border: solid;
+    border-color: yellow;
+    border-width: 2px;
+    background-color: rgb(53, 53, 42);
+    border-radius: 5px;
+  }
+
+  .lead-team {
+    color: black;
+    text-align: center;
+    padding: 3px;
+    font-size:1rem;
+    font-weight: 300;
+    border: solid;
+    border-color: yellow;
+    border-width: 2px;
+    background-color: lightyellow;
+    border-radius: 5px;
+  }
+  
+  .lead-team-2-dark {
+    color: rgba(255, 255, 255, 0.774);
+    text-align: center;
+    padding: 3px;
+    font-size:1.1rem;
+    font-weight: 300;
+    border: solid;
+    border-color: skyblue;
+    border-width: 2px;
+    background-color: rgb(41, 56, 61);
+    border-radius: 5px;
+  }
+
+  .lead-team-2 {
+    color: black;
+    text-align: center;
+    padding: 3px;
+    font-size:1.1rem;
+    font-weight: 300;
+    border: solid;
+    border-color: skyblue;
+    border-width: 2px;
+    background-color: rgb(199, 228, 238);
+    border-radius: 5px;
+  }
+
+  .lead-team-3-dark {
+    color: rgba(255, 255, 255, 0.774);
+    text-align: center;
+    padding: 3px;
+    font-size:150%;
+    font-weight: 300;
+    border: solid;
+    border-color: lightgreen;
+    border-width: 2px;
+    background-color: rgb(29, 34, 60);
+    border-radius: 5px;
+  }
+
+  .lead-team-3 {
+    color: black;
+    text-align: center;
+    padding: 3px;
+    font-size:150%;
+    font-weight: 300;
+    border: solid;
+    border-color: lightgreen;
+    border-width: 2px;
+    background-color: rgb(224, 216, 255);
+    border-radius: 5px;
+  }
+  
 
 .display-1 {
   font-size: 6rem;
@@ -402,6 +487,34 @@ mark,
     height:300px;
     border-style: solid;
     border-color: blanchedalmond; }
+
+.img-fluid-gallery2 {
+      width: 100%;
+      height: 270px; }
+
+.img-fluid-bot {
+  width: 100%;
+  height: 409px;
+}
+@media (max-width: 800px){
+  .img-fluid-bot {
+    height: 250px;
+  }
+}
+
+.rotate-r90 {   
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -499,7 +612,7 @@ pre {
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-2-1, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
   position: relative;
@@ -1044,12 +1157,22 @@ pre {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
+    .col-lg-2-1 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%; }
   .col-lg-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
-  .col-lg-4 {
+  .col-lg-3-1 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 23%;
+      flex: 0 0 23%;
+      max-width: 23%; }
+    .col-lg-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
